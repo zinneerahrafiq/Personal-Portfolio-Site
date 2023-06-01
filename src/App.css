@@ -1,0 +1,344 @@
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.leftcontact{
+  width: 40%;
+  /* float: left; */
+  text-align: left;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+
+.left {
+  width: 40%;
+  /* float: left; */
+  text-align: left;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.right {
+  width: 40%;
+  /* float: right; */
+  text-align: right;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.left p,
+.right p {
+  text-align: center;
+  font-family: "comic sans ms"
+}
+
+
+.left-img {
+  order: 2;
+}
+
+.right {
+  order: 2;
+}
+
+.containercenter {
+  background-image: url('E:\Zinneerah\connect hear\zinneerah\public\boh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.card-work {
+  max-width: 250px; 
+}
+.project-card {
+  width: 300px; 
+  height: auto; 
+}
+
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.card-work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.card-work-container .project-card {
+  margin: 10px;
+}
+
+.project-card {
+  width: 250px;
+  height: auto;
+  margin-right: 0px;
+  background-color: white; 
+  text-align: center;
+}
+.showmore-btn{
+  background-color: #f8ead7;
+  border-radius: 20px;
+
+}
+
+
+.skillsh2{
+  text-align: center;
+  justify-content: center;
+}
+.homecontainer{
+  background-color:#f8ead7 ;
+  height: 100vh;
+}
+.homeh1{
+  margin-bottom: 0px;
+}
+.homepara{
+  margin-top: 0%;
+}
+.skills-container {
+  background-color: #f8ead7;
+
+  min-height: 100vh; 
+ 
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.heading{
+   color: #d0947a;
+   font-family: "comic sans ms";
+}
+.column-left {
+  flex: 1; 
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-right {
+  flex: 1; 
+  padding-left: 10px; 
+  align-items: center;
+}
+
+.form-label {
+  display: block;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.form-row {
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-input {
+  margin-top: 10px;
+  font-weight: bold;
+  
+  border: 2px solid #d0947a;
+   
+  width: 200px; 
+}
+
+.form-textarea {
+  border: 2px solid #d0947a;
+  
+}
+
+.form-btn {
+  font-weight: bold;
+  color: #d0947a;
+  width: 100px; 
+  height: 50px;
+  background-color: #d0947a; 
+  color: white;
+  margin-left: 10px;
+}
+.form-heading{
+  font-family: "comic sans ms";
+}
+
+.wider-input {
+  
+  width: 100%; }
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icon-column {
+  margin: 0 10px;
+}
+
+.icon-column p {
+  margin-bottom: 10px;
+}
+
+
+
+
+.separation-line {
+  border-top: 1px solid #bfaa8c;
+  margin: 20px 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contentcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.left img{
+  display: block;
+  float: left;
+  max-width: 40%;
+  height: auto;
+
+}
+
+
+.right img {
+  display: block;
+  float: right;
+  max-width: 40%;
+  height: auto;
+}
+
+.container {
+  background-color: #f8ead7;
+}
+
+.containermental {
+  background-color: #f8ead7;
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features {
+  flex-basis: 300px;
+}
+
+.features h2 {
+  margin-top: 0;
+}
+
+.images {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images img {
+  max-width: 100%;
+  margin: 10px;
+  height: auto;
+  max-height: 200px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+  }
+
+  .features {
+    flex-basis: 30%;
+  }
+
+  .images {
+    flex-basis: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    flex-basis: 100%;
+  }
+
+  .images {
+    flex-basis: 100%;
+  }
+}
+
+
+#background {
+  background-color: #f8ead7;
+  padding: 20px;
+}
+
+#contact{
+  background-color: transparent;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#interests {
+  background-color: #f8ead7;
+  padding: 20px;}
+
+  #goals {
+    background-color:#f8ead7;
+    padding: 20px;}
+  
