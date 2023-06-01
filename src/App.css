@@ -45,7 +45,7 @@
 }
 
 .containercenter {
-  background-image: url('E:\Zinneerah\connect hear\zinneerah\public\boh.jpg');
+  background-image: url('../public/boh.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
