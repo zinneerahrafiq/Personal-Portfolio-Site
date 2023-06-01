@@ -1,49 +1,4 @@
 
-
-// const About = () => {
-//   return (
-//     <div className="container">
-//       {/* <header>
-//         <nav>
-//           <ul>
-//             <li><a href="index.html">Home</a></li>
-//             <li><a href="#skills">Skills</a></li>
-//             <li><a href="#contact">Contact</a></li>
-//           </ul>
-//         </nav>
-//       </header> */}
-//       <section id="about">
-//         <h2>Academic Background</h2>
-//         <div className="content">
-//           <div className="left">
-//             <p>Description of your academic background...</p>
-//             <p>My name is Julia Crist and I recently graduated from Ball State University in December of 2022 with a Bachelor’s degree in Advertising, and a minor in Entrepreneurial Management! I am also an entrepreneur & have my own business, Julia K Crist LLC. I do content creation, sponsorships with companies, and more as an influencer/YouTuber.</p>
-//           </div>
-//           <div className="right">
-//             <img src="ab.jpeg" alt="Academic Background Image" />
-//           </div>
-//         </div>
-//       </section>
-
-//       <section id="interests">
-//         <h2>Interests</h2>
-//         <div className="content">
-//           <div className="left-img">
-//             <img src="tt.jpeg" alt="Interests Image"  />
-//           </div>
-//           <div className="right">
-//             <p>Description of your interests...</p>
-//             <p>My name is Julia Crist and I recently graduated from Ball State University in December of 2022 with a Bachelor’s degree in Advertising, and a minor in Entrepreneurial Management! I am also an entrepreneur & have my own business, Julia K Crist LLC. I do content creation, sponsorships with companies, and more as an influencer/YouTuber.</p>
-//           </div>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default About;
-
-
 // About.js
 import React from 'react';
 
