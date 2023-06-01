@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# Personal Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This is my Personal Portfolio Site for ConnectHear. It is hosted and can be viewed on http://zinneerahrafiq.netlify.app/
 ## Available Scripts
 
 In the project directory, you can run:
