@@ -13,7 +13,7 @@ const Skills = () => {
             <li>Web Application Development using MERN stack</li>
             <li>Mobile Application Development using Flutter</li>
             <li>Java Programming</li>
-            <li>Python Programming basics</li>
+            <li>Python Programming </li>
             <li>Data analytics using Knime</li>
             
             
@@ -32,7 +32,7 @@ const Skills = () => {
 
           <FlippingCard
           cardName="Mental Health Website"
-        backContent="An online platform to help people struggling with mental health connect with therapists with access to games and a chatbot to vent out their feelings"
+        backContent="An online platform to help people struggling with mental health connect with therapists with access to games and a chatbot to vent out their feelings (Tech Stack - MERN)"
         frontImage="mentalhealth.png"
         link="https://github.com/jazil10/MentalEase"
           ></FlippingCard>
@@ -40,7 +40,7 @@ const Skills = () => {
         <FlippingCard
           
           cardName="Railway Reservation System"
-        backContent="A railway booking system specially made to automate the task of booking tickets for trains. users are allowed to book tickets, cancel tickets, and view all trains. "
+        backContent= "A railway booking system specially made to automate the task of booking tickets for trains. Users are allowed to book tickets, cancel tickets, and view all trains. The system provides navigation between pages and handles extensive database interaction smoothly (Made with PHP, HTML, CSS) "
         frontImage="railway.png"
         link="https://github.com/zinneerahrafiq/DBMS-Railway-Management-System-Project.git"
           ></FlippingCard>
@@ -48,8 +48,7 @@ const Skills = () => {
        <FlippingCard
           
           cardName='Games Database'
-        backContent=" a database to make searching and sorting easy. made with data structures
-         "
+        backContent=" A database to store latest games, with searching and sorting made extremely easy with the use of data structures like hashing, binary search tree and priority queues etc (made with JAVA and JFrame for GUI)  "
         frontImage="games.png"
         link="https://github.com/jazil10/DSPROJECT.git"
         
